@@ -25,7 +25,7 @@ When the modifications are done, the goal of Gradient Boosting is to create an o
 Another way to use gradient boosting is to use a functional gradient descent. The way we use this method is by using parts of the approximation as a sum of incremental improvements. The model is trained to be similar to gradient boosting since it does use the loss function's gradient in order to calculate the value of data.
 
 Finally, the main parts that are needed in order to get Gradient Boosting to work are the following:
-* toy data
+- toy data
 - number of iterations
 - the mean squared error loss function
 - gradient of the function which is the residuals of the function
